@@ -1,15 +1,16 @@
 header {
     background-color: transparent;
     margin:0;
-
-}
-
-.nav {
     
 }
 
 ul {
     list-style-type: "✔";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    margin:0;
+    list-style-position: inside;
+    text-align: center;
 }
 
 .logo {
@@ -21,8 +22,6 @@ ul {
     width:1690px;
     height:507px;
     margin:0;
-    background-color: aquamarine;
-
 }
 
 .banner-index {
@@ -35,11 +34,9 @@ ul {
 }
 
 .layout3 {
-    
-    background-color: aqua;
     border: 1px solid black;
     width:450px;
-    height:700px;
+    height:750px;
     display:inline-block;
     position:relative;
     margin: 40px;
@@ -49,7 +46,7 @@ ul {
 .label-black {
     background-color: black;
     width:450px;
-    height:120px;
+    height:170px;
     position: absolute;
     bottom: 0;
     color:white;
@@ -78,7 +75,6 @@ ul {
     margin-right:30px;
 
 }
-
 .image3 {
     position:absolute;
     margin:0;
@@ -89,14 +85,7 @@ ul {
     background-color: whitesmoke;
     border-top: 1px;
     border-bottom: 1px;
-}
-
-.ul {
-    text-align: center;
     align-items: center;
-    list-style:none;
-
-
 }
 
 .text-banner-index {
@@ -130,5 +119,35 @@ footer {
     background-color:black;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
+    margin:0;
+}
+
+.button-index {
+    background-color:orange;
+    font-weight: bold;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    width:250px;
+    height:40px;
+    align-items: center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:10px;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+
+}
+
+.text-h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin:0;
 }
